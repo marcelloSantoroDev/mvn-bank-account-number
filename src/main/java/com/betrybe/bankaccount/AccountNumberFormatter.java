@@ -11,8 +11,9 @@ public class AccountNumberFormatter {
    *
    * @param literalAccountNumber número da conta
    */
-  public String formatAccountNumber(int literalAccountNumber) {
+  public int formatAccountNumber(int literalAccountNumber) {
 
+    return literalAccountNumber;
   }
 
 }
